@@ -6,6 +6,7 @@ from init.helper import database
 
 collection = database["auth"]
 
+
 def authentication(auth_code, class_name, class_function, data_id):
     # token must have this keys
     # {
