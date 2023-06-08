@@ -8,7 +8,7 @@ from init.urls import valid_urls
 
 from init.auth import authentication
 
-hostName = "127.0.0.1"
+hostName = "0.0.0.0"
 serverPort = 8080
 UI_port = 8081
 

@@ -14,6 +14,9 @@ class User:
         print(auth)
         return {"response": {"message": "ok"}, "status": 200}
 
+    def login(self, request, url_query, auth):
+        return {"response": {"message": 'ok'}, "status": 200}
+
 # class User:
 #     def __init__(self):
 #         self.collection = database["user"]
